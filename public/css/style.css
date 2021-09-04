@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cursor {
+    cursor: pointer !important;
+}
+
+.btn-sort {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 0
+}
+
+.bg-cyan {
+    background-color: #f1f3ff;
+}
