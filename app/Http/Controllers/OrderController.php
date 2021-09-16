@@ -232,6 +232,7 @@ class OrderController extends Controller
         $order->update();
 
         Session::flash('success', 'Success updating order!');
+        
         return redirect()->back();
     }
 

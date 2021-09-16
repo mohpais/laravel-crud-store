@@ -178,10 +178,10 @@
                                                     <td class="text-center">
                                                         <form action="{{ route('order.destroy', $order) }}" method="POST">
                                                             <a class="btn btn-info btn-sm" href="{{ route('order.show', $order->id) }}">Show</a>
-                                                            <a class="btn btn-primary btn-sm" href="{{ route('order.edit', $order->id) }}">Edit</a>
                                                             @csrf
                                                             @method('DELETE')
                                                             @if (auth()->user()->is_admin == 1)
+                                                                <a class="btn btn-primary btn-sm" href="{{ route('order.edit', $order->id) }}">Edit</a>
                                                                 <button type="submit" class="btn btn-danger btn-sm"
                                                                     onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Delete
                                                                 </button>

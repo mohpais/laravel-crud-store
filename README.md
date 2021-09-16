@@ -1,7 +1,7 @@
 # Cara menggunakan aplikasi
 
 ### 1. Spesifikasi teknologi:
-- Laravel 8
+- Laravel 7
 - PHP 7.x
 - Composer.
 
